@@ -1,3 +1,3 @@
 contract Foo {
-    function f(uint[] storage constant x, uint[] memory y) { }
+    function f(uint[] constant x, uint[] memory y) { }
 }

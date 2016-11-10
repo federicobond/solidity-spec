@@ -1,3 +1,3 @@
 contract c {
-    modifier mod(uint a) { if (msg.sender == a) _; }
-};
+    modifier mod(address a) { if (msg.sender == a) _; }
+}

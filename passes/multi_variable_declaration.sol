@@ -6,7 +6,6 @@ contract C {
         var (f,) = 4;
         var (x,,) = g();
         var (,y,) = g();
-        var () = g();
         var (,,) = g();
     }
     function g() returns (uint, uint, uint) {}

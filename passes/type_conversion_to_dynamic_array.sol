@@ -1,5 +1,5 @@
 contract test {
   function fun() {
-    var x = uint64[](3);
+    var x = new uint64[](3);
   }
 }

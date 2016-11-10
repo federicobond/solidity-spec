@@ -3,7 +3,6 @@ contract test {
         var b = 2;
         uint256 c = 0x87;
         mapping(address=>bytes32) d;
-        bytes7 name = "Solidity";
-        customtype varname;
+        bytes32 name = "Solidity";
     }
 }

@@ -1,4 +1,4 @@
-import "abc";
+import "./abc.sol";
 
 contract test {
   function fun() {

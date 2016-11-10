@@ -1,17 +1,14 @@
-import "abc";
+import "./abc.sol";
 
 contract test {
   function fun() {
-    uint64(2);
   }
 }
-
-import "def";
 
 contract test2 {
   function fun() {
-    uint64(2);
   }
 }
 
-import "ghi";
+import "./def.sol";
+

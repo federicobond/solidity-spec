@@ -1,5 +1,6 @@
 contract test {
-    function fun(uint256 a) {
-        uint256 x = (1 + 4) || false && (1 - 12) + -9;
+    function fun(int256 a) {
+        int256 x = (1 + 4) * (a - 12) + -9;
+        bool y = true && (a < 6) || false;
     }
 }

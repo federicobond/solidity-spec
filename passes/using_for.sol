@@ -1,8 +1,12 @@
+library Lib {
+}
+
 contract C {
     struct s { uint a; }
-    using LibraryName for uint;
-    using Library2 for *;
+    using Lib for uint;
+    using Lib for *;
     using Lib for s;
+
     function f() {
     }
 }

@@ -1,11 +1,14 @@
-contract base {
+contract foo {
   function fun() {
-    uint64(2);
   }
 }
 
-contract derived is base, nonExisting {
+contract bar {
   function fun() {
-    uint64(2);
+  }
+}
+
+contract derived is foo, bar {
+  function fun() {
   }
 }
