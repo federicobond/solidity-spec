@@ -1,0 +1,3 @@
+contract foo {
+    contract bar { }
+}
