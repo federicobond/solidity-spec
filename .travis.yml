@@ -1,0 +1,5 @@
+before_install:
+  - sudo add-apt-repository ppa:ethereum/ethereum -y
+  - sudo apt-get update -qq
+  - sudo apt-get install solc -y
+script: ./run-tests.sh
