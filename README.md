@@ -30,6 +30,6 @@ example:
 
 Code is licensed under the GPL.
 
-## Author
+## Author
 
 The Solidity Spec Suite is developed by [Federico Bond](https://github.com/federicobond)
