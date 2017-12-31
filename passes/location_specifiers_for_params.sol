@@ -1,3 +1,4 @@
 contract Foo {
-    function f(uint[] constant x, uint[] memory y) { }
+    function f(uint[] memory x) { }
+    function f(uint[] storage x) internal { }
 }
